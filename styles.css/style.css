@@ -1,0 +1,193 @@
+.informacion-turistica {color: aqua;
+}
+.destinos{
+color: aqua;
+}
+.contacto{
+color: aqua;
+}
+.nosotros{
+color: aqua;
+}
+
+
+/* estilos imagenes */
+.imagen-slogan {background-image: ; background-size: 50%;
+    height: 50%;
+float: right;
+}
+.imagen-viajes {background-image: ; background-size: 50%
+    height: 50%;}
+
+.banner {
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 0%;
+margin-top: 20px;
+margin-bottom: 60px;
+}
+hr{color: aqua;}
+
+/* Estilo CSS para el fondo de la página */
+body {
+    background-color:gray;}
+
+
+    .enlaces-container a {
+        display: inline-block;
+        margin: 0 130px; 
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    /* estilos logo y banner */
+    
+    .contenedor-imagen {
+        width: 100%; /* Esto asegura que el contenedor ocupe el 100% del ancho disponible */
+        max-width: 100%; /* Evita que la imagen se estire más allá de su tamaño original */
+        text-align: center; /* Alinea la imagen en el centro si es necesario */
+    }
+
+    .contenedor-imagen img {
+        width: 20%; /* Esto hace que la imagen ocupe el 100% del ancho del contenedor *//* La altura se ajustará automáticamente para mantener la proporción original */
+    }
+
+    /* estilo copy */
+    .copyright {text-align: center;
+    }
+
+    /* estilos informacion turistica */
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Establece la altura del contenedor al 100% del viewport */
+    }
+    
+    .imagen-con-texto {
+        display: flex;
+        align-items: center;
+    }
+    
+    .imagen-con-texto img {
+        width: 59%; /* Asigna la mitad del ancho del contenedor para la imagen */
+        max-width: 100%; /* Asegura que la imagen no se estire más allá de su tamaño original */
+        float: left; /* Coloca la imagen a la izquierda */
+        margin-right: 20px; /* Agrega un espacio a la derecha de la imagen */
+    }
+    
+    .imagen-con-texto .texto {
+        background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el texto */
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    
+
+    .contenedor-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Establece la altura del contenedor al 100% del viewport */
+    }
+    
+    .imagen-con-texto-2 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .imagen-con-texto-2 img {
+        width: 95%; /* Asigna la mitad del ancho del contenedor para la imagen */
+        max-width: 100%; /* Asegura que la imagen no se estire más allá de su tamaño original */
+        float: left; /* Coloca la imagen a la izquierda */
+        margin-right: 10px; /* Agrega un espacio a la derecha de la imagen */
+    }
+    
+    .imagen-con-texto-2 .texto-2 {
+        background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el texto */
+        color: #fff;
+        padding: 10px;
+        text-align: left;
+        }
+        .texto-2{
+            margin-right: 20px;
+        }
+        
+        
+        
+        .contenedor-3 {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            height: 100vh; /* Establece la altura del contenedor al 100% del viewport */
+        }
+        
+        .imagen-con-texto-3 {
+            display: flex;
+            align-items: center;
+        }
+        
+        .imagen-con-texto-3 img {
+            width: 100%; /* Asigna la mitad del ancho del contenedor para la imagen */
+            max-width: 100%; /* Asegura que la imagen no se estire más allá de su tamaño original */
+            float: left; /* Coloca la imagen a la izquierda */
+            margin-right: 10px; /* Agrega un espacio a la derecha de la imagen */
+        }
+        
+        .imagen-con-texto-3 .texto-3 {
+            background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el texto */
+            color: #fff;
+            padding: 10px;
+            text-align: left;
+}
+.hr-turistica-1{
+    margin: 5px;
+}
+input[type="radio"] {
+    display: none;
+}
+
+/* Estilo CSS para las etiquetas de texto */
+label {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Estilo CSS para el contenido */
+#contenido > div {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo CSS para mostrar el contenido cuando la opción está seleccionada */
+#opcion1:checked ~ #contenido #opcion1-content,
+#opcion2:checked ~ #contenido #opcion2-content,
+#opcion3:checked ~ #contenido #opcion3-content,
+#opcion4:checked ~ #contenido #opcion4-content {
+    display: block;
+}
+
+select {
+    width: 200px; /* Ancho del select */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo CSS para las opciones */
+option {
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;}
+
+.opcion1{
+    margin: 10px;
+}
+.opcion1{
+    margin-left: 10px;
+}
